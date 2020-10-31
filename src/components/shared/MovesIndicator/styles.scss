@@ -1,0 +1,33 @@
+.indicator {
+    &_block {
+        font-size: 2rem;
+    }
+    &__title {
+        &::after {
+            content: ":";
+        }
+    }
+    &__value {
+        padding-left: 0.5rem;
+    }
+}
+.button{
+    &_reset{
+        outline: none;
+        cursor: pointer;
+        border-radius: 1rem;
+        padding: 0.25rem .5rem;
+        background: transparent;
+        border: 1px solid black;
+        &:hover{
+            background: lemonchiffon;
+        }
+    }
+}
+.header{
+    width: 90%;
+    display: flex;
+    margin: 1rem auto;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}

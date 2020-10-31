@@ -1,0 +1,14 @@
+.button {
+    &__general {
+        border: 1px solid;
+        padding: 0.25rem;
+        border-radius: 1rem;
+        outline: none;
+        border: none;
+        background: transparent;
+        &,
+        &::placeholder {
+            text-align: center;
+        }
+    }
+}
