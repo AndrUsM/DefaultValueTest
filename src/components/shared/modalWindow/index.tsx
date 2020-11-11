@@ -5,7 +5,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { ModalWindowContentSwitcher } from './content_switcher';
 import { joinStringArray } from '../../../utils/string';
 import { setModalWindowState } from '../../../store/partials/modal_window/status/actions';
-import { ButtonGeneral } from '../../pages/button';
+import { ButtonGeneral } from '../../shared/button';
 import { ReduxStateType } from '../../../store/types/state';
 
 export function ModalWindow(props: {
