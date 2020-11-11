@@ -1,5 +1,5 @@
 import { CardType, CardPropsType } from './types';
-import React from 'redux';
+import React from 'react';
 import './styles.scss';
 import { useDispatch, useSelector } from 'react-redux';
 import { clearChoosenCardsState, uploadChoosenCards } from '../../../store/partials/current_cards/action';
